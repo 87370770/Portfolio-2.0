@@ -1,0 +1,136 @@
+* {
+    padding: 0PX;
+    margin: 0px;
+    color: whitesmoke;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(195, 219, 246, 0.712), rgb(32, 32, 158), rgba(195, 219, 246, 0.712));
+}
+
+.container {
+    display: grid;
+
+}
+
+.heading {
+    padding: 1rem;
+    text-align: center;
+    margin: 1.4rem;
+    box-shadow: inset 20px 5px 20px rgb(79, 79, 229);
+    background: transparent;
+    cursor: default;
+    border-radius: 40%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    box-shadow: inset 20px 5px 20px rgb(50, 104, 230);
+    margin: .7rem;
+    padding: .5rem;
+    border-radius: 1rem;
+
+}
+
+.navbar ul li a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+div[class="home"],
+div[class="services"],
+div[class="skills"],
+div[class="about_me"],
+div[class="contact_me"] {
+    box-shadow: 10px 50px 100px rgb(7, 189, 244);
+    border-radius: 2% 30% 0 30%;
+    padding: 2.2rem;
+    margin: 1.3rem 8.5rem;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.home img {
+    box-shadow: 10px 50px 100px rgb(7, 189, 244);
+}
+
+.home .left {
+    max-width: 50rem;
+}
+.home .left .intro{
+font-size: 3rem;
+}
+.home .left .cv_btn {
+    background-color: rgb(118, 118, 226);
+    color: aliceblue;
+    margin: .7rem;
+    font-size: .8rem;
+    font-weight: bold;
+    border: inset white;
+    height:5vh;
+}
+
+.home .left .cv_btn:hover {
+    background-color: rgb(66, 170, 249);
+    border: outset whitesmoke;
+}
+
+.contact_me p,
+.contact_me a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact_me li {
+    list-style: none;
+    background-color: #5678d8;
+    border-radius: 4%;
+}
+
+.services ul {
+    list-style: none;
+}
+
+details{
+    width: 100%;
+    margin: 1rem;
+    padding: .2rem;
+}
+summary{
+    font-size: 1.1rem;
+    text-align: center;
+}
+details .para{
+    text-align: center;
+    margin: 1rem;
+}
+main h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.about_me p, .contact_me p{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+footer {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: inset 10px 50px 100px rgb(7, 189, 244);
+    border-radius: 2%;
+}
